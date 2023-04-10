@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form onsubmit="addTask(event)">
+        <input type="text" id="taskInput" name="taskName" placeholder="Add your Task">
+        <button type="submit" id="addTaskBtn">Add Task</button>
+    </form>
+    <div>
+        <button onclick="allTask()">All Task</button>
+        <button onclick="pandingTask()">Panding Task</button>
+        <button onclick="completedTask()">Completed task</button>
+    </div>
+    <ul id="taskList">
+
+    </ul>
+    <script src="script.js"></script>
+</body>
+
+</html>
